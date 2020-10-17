@@ -1,9 +1,11 @@
 package boardgame;
 
+//encapsulamento
 public class Position {
 	private int row;
 	private int column;
 	
+	//Construtores
 	public Position(int row, int column) {
 	
 		this.row = row;
@@ -26,7 +28,7 @@ public class Position {
 		this.column = column;
 	}
 	
-	@Override
+	@Override//sobrescrevendo uma classe
 	public String toString() {
 		return row + " , " + column;
 	}
